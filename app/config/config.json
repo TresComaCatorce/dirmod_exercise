@@ -1,0 +1,10 @@
+{
+	"SERVER_PORT": "5000",
+
+	"CAMBIO_URL": "http://api.wahrungsrechner.org/v1/quotes/{SOURCE_CURRENCY}/{TARGET_CURRENCY}/json",
+	"CAMBIO_API_KEY": "2797|XzQPUFsVVm~NN^EYbPFp*YFnxYFTwUkz",
+	"PESO_CODE": "ARS",
+	"DOLAR_CODE": "USD",
+	"EURO_CODE": "EUR",
+	"REAL_CODE": "BRL"
+}

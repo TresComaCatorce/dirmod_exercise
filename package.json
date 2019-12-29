@@ -1,0 +1,27 @@
+{
+	"name": "dirmod_exercise",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TresComaCatorce/dirmod_exercise.git"
+	},
+	"author": "Cristian Ferrero",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/TresComaCatorce/dirmod_exercise/issues"
+	},
+	"homepage": "https://github.com/TresComaCatorce/dirmod_exercise#readme",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"request": "^2.88.0",
+		"request-promise-native": "^1.0.8",
+		"string-template": "^1.0.0"
+	}
+}
