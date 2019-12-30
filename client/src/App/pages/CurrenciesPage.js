@@ -72,7 +72,6 @@ class CurrenciesPage extends React.Component
 					.then(res => {
 						if( res.moneda && res.precio && typeof res.precio === "number" )
 						{
-							console.log("CBF x: ", res);
 							res.img = require(`../images/${res.moneda}.jpg`);
 							res.precio = res.precio.toFixed(2);
 							res.status = 200;
@@ -86,8 +85,8 @@ class CurrenciesPage extends React.Component
 			)
 		).then(rates => 
 		{
-			console.log("CBF result: ", rates);
 			rates = rates.filter( rate => rate.status===200 );
+			
 			if(rates.length>0)
 			{
 				this.setState({
